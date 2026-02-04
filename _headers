@@ -1,0 +1,24 @@
+{
+  "build": {
+    "command": "npm run build",
+    "cwd": null,
+    "root": "dist",
+    "watch_paths": null,
+    "destination": null,
+    "functions": null,
+    "d1_databases": null,
+    "durable_objects": null,
+    "external_config_files": null
+  },
+  "env": {
+    "production": {
+      "routes": [
+        {
+          "pattern": "evarena.io",
+          "zone_name": "evarena.io"
+        }
+      ]
+    }
+  },
+  "compatibility_date": "2024-12-16"
+}
