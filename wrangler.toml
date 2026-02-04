@@ -1,17 +1,3 @@
-name = "evarena"
-main = "dist/index.html"
-site = { include = "dist" }
-
-[build]
-command = "npm run build"
-cwd = "./"
-
-[env.production]
-name = "evarena-prod"
-route = "https://evarena.io/*"
-zone_id = ""
-
-[env.staging]
-name = "evarena-staging"
-route = "https://staging.evarena.io/*"
-zone_id = ""
+# This file is not needed for Cloudflare Pages
+# Pages auto-detects build config from package.json
+# Remove or leave empty for Pages deployment
